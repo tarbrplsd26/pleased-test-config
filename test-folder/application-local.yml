@@ -6,5 +6,5 @@ pleased:
         signature: HMAC
         signature-header: X-Hub-Signature-256
         split: "entry[*].messaging[*].message.text"
-        account-key-source: JSON
+        account-key-source: JSONN
         account-key-path: "value.metadata.phone_number_id"

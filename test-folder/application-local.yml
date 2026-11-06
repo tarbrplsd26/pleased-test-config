@@ -13,3 +13,8 @@ pleased:
         signature: NONE
         split: "entry[*].messaging[*].message.text"
         account-key-source: PATH
+      x:
+        handshake: NONE
+        signature: NONE
+        split: "entry[*].messaging[*].message.text"
+        account-key-source: PATH

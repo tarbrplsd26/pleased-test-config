@@ -8,8 +8,3 @@ pleased:
         split: "entry[*].messaging[*].message.text"
         account-key-source: JSON
         account-key-path: "value.metadata.phone_number_id"
-      instagram:
-        handshake: NONE
-        signature: NONE
-        split: "entry[*].messaging[*].message.text"
-        account-key-source: PATH
